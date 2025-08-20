@@ -1,0 +1,7 @@
+model:
+  name: "gpt2"              # huggingface model name
+  cache_dir: "./.cache"     # where to cache the model
+  device: "cuda"            # "cpu" or "cuda"
+  max_length: 256           # maximum tokens per sample
+  temperature: 0.7
+  top_p: 0.9

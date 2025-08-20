@@ -1,4 +1,4 @@
-# Advancing AI Reasoning: Comparative Analysis of CoT, Meta-CoT, and Hierarchical Reasoning on GSM8K
+# Advancing AI Reasoning: Comparative Analysis of CoT, Meta-CoT, and Hierarchical Reasoning on ARC 1
 
 > **Work in Progress**
 > Maintainer: *\[Bharath Sai Reddy]*
@@ -98,3 +98,30 @@ Maintainer: \[Bharath Sai Reddy]
 Email: \[bharathsaireddy7161@gmail.com]
 
 ---
+arc1-cot-baseline/
+├─ README.md
+├─ LICENSE
+├─ requirements.txt
+├─ pyproject.toml
+├─ .gitignore
+├─ configs/
+│  ├─ default.yaml
+│  └─ eval_arc1.yaml
+├─ src/
+│  └─ arc1_cot/
+│     ├─ __init__.py
+│     ├─ utils.py
+│     ├─ dataset.py
+│     ├─ prompts.py
+│     ├─ model_gpt2.py
+│     ├─ cot_infer.py
+│     ├─ parsing.py
+│     └─ evaluate.py
+├─ scripts/
+│  └─ run_cot_arc1.sh
+├─ tests/
+│  ├─ test_prompts.py
+│  ├─ test_parsing.py
+│  └─ test_infer_smoke.py
+├─ outputs/            # (gitignored)
+└─ data/               # (gitignored)
