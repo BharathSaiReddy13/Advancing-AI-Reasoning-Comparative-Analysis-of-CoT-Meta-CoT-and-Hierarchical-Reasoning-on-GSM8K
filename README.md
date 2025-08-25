@@ -2,17 +2,16 @@
 
 > **Work in Progress**
 > Maintainer: *\[Bharath Sai Reddy]*
-> Last updated: August 17, 2025
 
 ---
 
 ## Project Overview
 
-This project aims to systematically compare three state-of-the-art reasoning strategies for large language models on the **GSM8K** math word problem benchmark:
+This project aims to systematically compare three state-of-the-art reasoning strategies for large language models on the **ARC 1** benchmark:
 
 * **Chain-of-Thought (CoT) Prompting**: Standard prompting with and without self-consistency.
-* **Meta-CoT (Stanford)**: Meta-reasoning with multiple reasoning paths and meta-prompting strategies \[13].
-* **Hierarchical Reasoning Model (Sapient Intelligence)**: A recurrent, two-level reasoning model inspired by human cognition \[16]\[19].
+* **Meta-CoT (Stanford)**: Meta-reasoning with multiple reasoning paths and meta-prompting strategies \[2].
+* **Hierarchical Reasoning Model (Sapient Intelligence)**: A recurrent, two-level reasoning model inspired by human cognition \[3].
 
 **Key Evaluation Dimensions:**
 
